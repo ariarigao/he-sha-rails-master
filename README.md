@@ -22,15 +22,30 @@ No longer in use and updated as of Sep.2021.
 ![Profile Page](https://user-images.githubusercontent.com/71961955/192122066-7dd7f845-094b-4b2f-a94b-7d9ef025e112.png)
 
 
+## Home Page 
+1.a search bar where users can input cocktail name, ingredient name, or flavor/type to get desires results
+2.Displays recommended cocktail recipes by user-based collaborative filtering, divided by flavors
+
+![home ](https://user-images.githubusercontent.com/71961955/192122233-b1a48b4b-ff32-4e73-8233-06ef44059894.png)
+
+## Multi-item search Page
+1.returns a list of cocktail recipes that match the inputted ingredients.
+
+![multi item cocktail index](https://user-images.githubusercontent.com/71961955/192122274-21090c6b-e2d7-433b-8c83-74f93cc88966.png)
+![cocktail search index](https://user-images.githubusercontent.com/71961955/192122288-06080895-2f8a-4496-9816-bac97fd03ea5.png)
 
 
+## Cocktail
+1.displays cocktail name, image, summary of flavor, ingredients needed and instructions
+2.ingredients matched with user input are colored in light pink
+3.like button to add cocktail into bookmark collection 
+4.share button to share this page as a link, on social media, or throuogh airdrop
 
-
-
-
-![home ](https://user-images.githubusercontent.com/71961955/192121383-fc3f4aef-632c-4dc8-83f7-2f68b89c221b.png)
-![multi item cocktail index](https://user-images.githubusercontent.com/71961955/192121444-c7cb8c7d-cc66-4c75-b6a6-4959ce0a9f9e.png)
 ![cocktail show multi ingredient selection](https://user-images.githubusercontent.com/71961955/192121449-8f0f6106-59f6-44d8-88b5-bf956d3645da.png)
+
+## Cocktail
+1.Still don't know what to drink? Shake your phone and a randomly selected cocktail recipe will pop up along with summary of flavors. 
+
 ![Shake cocktail card](https://user-images.githubusercontent.com/71961955/192121446-3bc3ce0d-0c97-4ace-93f3-3e5550fc3278.png)
 
 
