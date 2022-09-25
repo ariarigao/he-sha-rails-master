@@ -48,6 +48,29 @@ No longer in use and updated as of Sep.2021.
 
 ![Shake cocktail card](https://user-images.githubusercontent.com/71961955/192121446-3bc3ce0d-0c97-4ace-93f3-3e5550fc3278.png)
 
+## Algorithm Design
+- We scrapped the cocktail recipes and instructions from diffordsguide.com.
+- Search: When user input cocktail name, ingredient name, alcohol name, or flavor. This information gets sent to the backend. Then we query the cocktail recipe database and generate all responses that match the input, and structure the response according to the number of matches.
+- Recommendation: Users who like the same recipes will be put in the same “group” and the if members in the group have liked a new recipe, the rest of the group will be recommended this new recipe. 
+
+## Infrastructure Design
+- 3-tier architecture
+   * Presentation tier: Javascript, HTML, CSS
+   * Data tier: Postman, PostgreSQL
+   * Logic tier: Ruby on Rails, Python
+
+- Third Party Service
+   * Difford’s Guide API
+   * Elastic Search
+   * Social media login services
+
+## Database Design
+- PostgreSQL
+   * **Cocktails** - store cocktail id, cocktail name, along with flavor summary, ingredients, instructions, and tags
+   * **Users** - store user information, including user id,  name, password,liked recipes.
+   * **Ingredients** - store ingredient id, and name.
+
+
 
 
 
